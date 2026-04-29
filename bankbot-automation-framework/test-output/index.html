@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BankBot_Automation_Suite" class="navigator-link">
+              <span class="suite-name border-skipped">BankBot Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BankBot_Automation_Suite" class="navigator-link ">
+                    <span>C:\Users\manas\eclipse-workspace\bankbot-automation-framework\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BankBot_Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BankBot_Automation_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BankBot_Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BankBot_Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BankBot_Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BankBot_Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">22 methods,  3 skipped,  19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-BankBot_Automation_Suite" class="hide-methods skipped suite-BankBot_Automation_Suite"> (hide)</a> <!-- hide-methods skipped suite-BankBot_Automation_Suite -->
+                      <a href="#" panel-name="suite-BankBot_Automation_Suite" class="show-methods skipped suite-BankBot_Automation_Suite"> (show)</a> <!-- show-methods skipped suite-BankBot_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-BankBot_Automation_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.FundTransferTest" class="method navigator-link" hash-for-method="verifyBalanceAfterTransfer">verifyBalanceAfterTransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.FundTransferTest" class="method navigator-link" hash-for-method="verifyBalanceAfterTransfer">verifyBalanceAfterTransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.ValidationTest" class="method navigator-link" hash-for-method="verifyNonNumericValidation">verifyNonNumericValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-BankBot_Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BankBot_Automation_Suite" class="hide-methods passed suite-BankBot_Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-BankBot_Automation_Suite -->
+                      <a href="#" panel-name="suite-BankBot_Automation_Suite" class="show-methods passed suite-BankBot_Automation_Suite"> (show)</a> <!-- show-methods passed suite-BankBot_Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-BankBot_Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(invalidUser, test123, error, Invalid username)">loginTest(invalidUser, test123, error, Invalid username)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(, , blank, Blank username/ password)">loginTest(, , blank, Blank username/ password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(mngr659075, sagypYs, success, Valid login credentials)">loginTest(mngr659075, sagypYs, success, Valid login credentials)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(, sagypYs, blank, Blank username)">loginTest(, sagypYs, blank, Blank username)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(mngr659075, wrong123, error, Invalid password)">loginTest(mngr659075, wrong123, error, Invalid password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.LoginTest" class="method navigator-link" hash-for-method="loginTest(mngr659075, , blank, Blank password)">loginTest(mngr659075, , blank, Blank password)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.FundTransferTest" class="method navigator-link" hash-for-method="verifyBalanceAfterTransfer">verifyBalanceAfterTransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.AccountTest" class="method navigator-link" hash-for-method="verifyCreateAccount">verifyCreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.CustomerTest" class="method navigator-link" hash-for-method="verifyCreateCustomer">verifyCreateCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.CustomerTest" class="method navigator-link" hash-for-method="verifyDuplicateEmailError">verifyDuplicateEmailError</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.AccountTest" class="method navigator-link" hash-for-method="verifyEditAccount">verifyEditAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.CustomerTest" class="method navigator-link" hash-for-method="verifyEditCustomer">verifyEditCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.ValidationTest" class="method navigator-link" hash-for-method="verifyEmptyFieldValidation">verifyEmptyFieldValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.FundTransferTest" class="method navigator-link" hash-for-method="verifyFundTransferSuccess">verifyFundTransferSuccess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.ValidationTest" class="method navigator-link" hash-for-method="verifyFutureDateValidation">verifyFutureDateValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.AccountTest" class="method navigator-link" hash-for-method="verifyInvalidCustomerIdAccountCreation">verifyInvalidCustomerIdAccountCreation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.FundTransferTest" class="method navigator-link" hash-for-method="verifyInvalidPayeeTransfer">verifyInvalidPayeeTransfer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.LoginTest" class="method navigator-link" hash-for-method="verifyLogoutRedirectsToLoginPage">verifyLogoutRedirectsToLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BankBot_Automation_Suite" title="com.bankbot.tests.ValidationTest" class="method navigator-link" hash-for-method="verifyNonNumericValidation">verifyNonNumericValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BankBot_Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BankBot_Automation_Suite" class="panel BankBot_Automation_Suite">
+          <div class="suite-BankBot_Automation_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.bankbot.tests.FundTransferTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBalanceAfterTransfer">
+                  </a> <!-- verifyBalanceAfterTransfer -->
+                  <span class="method-name">verifyBalanceAfterTransfer</span>
+                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Please fill all fields}
+  (Session info: chrome=147.0.7727.137): Please fill all fields
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [257df5388a4a1660fe32e98210008ca7, findElement {using=xpath, value=//p[@class=&apos;heading3&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.137, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\manas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54486}, goog:processID: 29604, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54486/devtoo..., se:cdpVersion: 147.0.7727.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 257df5388a4a1660fe32e98210008ca7
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:384)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:378)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:198)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)
+	at com.bankbot.base.BasePage.waitForVisibility(BasePage.java:28)
+	at com.bankbot.base.BasePage.getText(BasePage.java:46)
+	at com.bankbot.pages.FundTransferPage.isTransferSuccessful(FundTransferPage.java:40)
+	at com.bankbot.tests.FundTransferTest.verifyBalanceAfterTransfer(FundTransferTest.java:80)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBalanceAfterTransfer">
+                  </a> <!-- verifyBalanceAfterTransfer -->
+                  <span class="method-name">verifyBalanceAfterTransfer</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: name (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.137, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\manas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61992}, goog:processID: 36964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61992/devtoo..., se:cdpVersion: 147.0.7727.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: df05fed1da06c16f3a5ff6bb5f366005
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.bankbot.base.BasePage.waitForVisibility(BasePage.java:28)
+	at com.bankbot.pages.NewCustomerPage.navigateToNewCustomer(NewCustomerPage.java:47)
+	at com.bankbot.tests.FundTransferTest.createTwoAccounts(FundTransferTest.java:22)
+	at com.bankbot.tests.FundTransferTest.verifyBalanceAfterTransfer(FundTransferTest.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankBot_Automation_Suite-class-skipped -->
+          <div class="suite-BankBot_Automation_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.bankbot.tests.ValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNonNumericValidation">
+                  </a> <!-- verifyNonNumericValidation -->
+                  <span class="method-name">verifyNonNumericValidation</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.name: name (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.137, chrome: {chromedriverVersion: 147.0.7727.117 (474cc805edd..., userDataDir: C:\Users\manas\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58179}, goog:processID: 2824, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58179/devtoo..., se:cdpVersion: 147.0.7727.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37c9ffe8e3026b4ae5ce8e934ae91fe8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at com.bankbot.base.BasePage.waitForVisibility(BasePage.java:28)
+	at com.bankbot.pages.NewCustomerPage.navigateToNewCustomer(NewCustomerPage.java:47)
+	at com.bankbot.tests.ValidationTest.verifyNonNumericValidation(ValidationTest.java:36)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankBot_Automation_Suite-class-skipped -->
+          <div class="suite-BankBot_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankbot.tests.AccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateAccount">
+                  </a> <!-- verifyCreateAccount -->
+                  <span class="method-name">verifyCreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditAccount">
+                  </a> <!-- verifyEditAccount -->
+                  <span class="method-name">verifyEditAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidCustomerIdAccountCreation">
+                  </a> <!-- verifyInvalidCustomerIdAccountCreation -->
+                  <span class="method-name">verifyInvalidCustomerIdAccountCreation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankBot_Automation_Suite-class-passed -->
+          <div class="suite-BankBot_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankbot.tests.FundTransferTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyBalanceAfterTransfer">
+                  </a> <!-- verifyBalanceAfterTransfer -->
+                  <span class="method-name">verifyBalanceAfterTransfer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFundTransferSuccess">
+                  </a> <!-- verifyFundTransferSuccess -->
+                  <span class="method-name">verifyFundTransferSuccess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidPayeeTransfer">
+                  </a> <!-- verifyInvalidPayeeTransfer -->
+                  <span class="method-name">verifyInvalidPayeeTransfer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankBot_Automation_Suite-class-passed -->
+          <div class="suite-BankBot_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankbot.tests.CustomerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCreateCustomer">
+                  </a> <!-- verifyCreateCustomer -->
+                  <span class="method-name">verifyCreateCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDuplicateEmailError">
+                  </a> <!-- verifyDuplicateEmailError -->
+                  <span class="method-name">verifyDuplicateEmailError</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEditCustomer">
+                  </a> <!-- verifyEditCustomer -->
+                  <span class="method-name">verifyEditCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankBot_Automation_Suite-class-passed -->
+          <div class="suite-BankBot_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankbot.tests.ValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyFieldValidation">
+                  </a> <!-- verifyEmptyFieldValidation -->
+                  <span class="method-name">verifyEmptyFieldValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFutureDateValidation">
+                  </a> <!-- verifyFutureDateValidation -->
+                  <span class="method-name">verifyFutureDateValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNonNumericValidation">
+                  </a> <!-- verifyNonNumericValidation -->
+                  <span class="method-name">verifyNonNumericValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankBot_Automation_Suite-class-passed -->
+          <div class="suite-BankBot_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bankbot.tests.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(invalidUser, test123, error, Invalid username)">
+                  </a> <!-- loginTest(invalidUser, test123, error, Invalid username) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(invalidUser,test123,error,Invalid username)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, , blank, Blank username/ password)">
+                  </a> <!-- loginTest(, , blank, Blank username/ password) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,,blank,Blank username/ password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(mngr659075, sagypYs, success, Valid login credentials)">
+                  </a> <!-- loginTest(mngr659075, sagypYs, success, Valid login credentials) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(mngr659075,sagypYs,success,Valid login credentials)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, sagypYs, blank, Blank username)">
+                  </a> <!-- loginTest(, sagypYs, blank, Blank username) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(,sagypYs,blank,Blank username)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(mngr659075, wrong123, error, Invalid password)">
+                  </a> <!-- loginTest(mngr659075, wrong123, error, Invalid password) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(mngr659075,wrong123,error,Invalid password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(mngr659075, , blank, Blank password)">
+                  </a> <!-- loginTest(mngr659075, , blank, Blank password) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(mngr659075,,blank,Blank password)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLogoutRedirectsToLoginPage">
+                  </a> <!-- verifyLogoutRedirectsToLoginPage -->
+                  <span class="method-name">verifyLogoutRedirectsToLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BankBot_Automation_Suite-class-passed -->
+        </div> <!-- panel BankBot_Automation_Suite -->
+        <div panel-name="test-xml-BankBot_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\manas\eclipse-workspace\bankbot-automation-framework\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;BankBot Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bankbot.listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.bankbot.listeners.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Login And Validation Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bankbot.tests.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.bankbot.tests.ValidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login And Validation Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Customer Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bankbot.tests.CustomerTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Customer Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Account Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bankbot.tests.AccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Account Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Fund Transfer Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bankbot.tests.FundTransferTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Fund Transfer Tests --&gt;
+&lt;/suite&gt; &lt;!-- BankBot Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BankBot_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BankBot Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login And Validation Tests (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Customer Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Account Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Fund Transfer Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BankBot_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BankBot Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BankBot_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BankBot Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BankBot_Automation_Suite');
+function tableData_BankBot_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(22);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyEmptyFieldValidation')
+data.setCell(0, 2, 'com.bankbot.tests.ValidationTest')
+data.setCell(0, 3, 36464);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyBalanceAfterTransfer')
+data.setCell(1, 2, 'com.bankbot.tests.FundTransferTest')
+data.setCell(1, 3, 29652);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyBalanceAfterTransfer')
+data.setCell(2, 2, 'com.bankbot.tests.FundTransferTest')
+data.setCell(2, 3, 28466);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyNonNumericValidation')
+data.setCell(3, 2, 'com.bankbot.tests.ValidationTest')
+data.setCell(3, 3, 26355);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyBalanceAfterTransfer')
+data.setCell(4, 2, 'com.bankbot.tests.FundTransferTest')
+data.setCell(4, 3, 24895);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyEditAccount')
+data.setCell(5, 2, 'com.bankbot.tests.AccountTest')
+data.setCell(5, 3, 19690);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyFundTransferSuccess')
+data.setCell(6, 2, 'com.bankbot.tests.FundTransferTest')
+data.setCell(6, 3, 15433);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyEditCustomer')
+data.setCell(7, 2, 'com.bankbot.tests.CustomerTest')
+data.setCell(7, 3, 14074);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'com.bankbot.tests.LoginTest')
+data.setCell(8, 3, 12926);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyFutureDateValidation')
+data.setCell(9, 2, 'com.bankbot.tests.ValidationTest')
+data.setCell(9, 3, 12497);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyCreateAccount')
+data.setCell(10, 2, 'com.bankbot.tests.AccountTest')
+data.setCell(10, 3, 8216);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyDuplicateEmailError')
+data.setCell(11, 2, 'com.bankbot.tests.CustomerTest')
+data.setCell(11, 3, 7929);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyInvalidPayeeTransfer')
+data.setCell(12, 2, 'com.bankbot.tests.FundTransferTest')
+data.setCell(12, 3, 7651);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyCreateCustomer')
+data.setCell(13, 2, 'com.bankbot.tests.CustomerTest')
+data.setCell(13, 3, 5789);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyLogoutRedirectsToLoginPage')
+data.setCell(14, 2, 'com.bankbot.tests.LoginTest')
+data.setCell(14, 3, 4648);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyNonNumericValidation')
+data.setCell(15, 2, 'com.bankbot.tests.ValidationTest')
+data.setCell(15, 3, 4146);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyInvalidCustomerIdAccountCreation')
+data.setCell(16, 2, 'com.bankbot.tests.AccountTest')
+data.setCell(16, 3, 3938);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loginTest')
+data.setCell(17, 2, 'com.bankbot.tests.LoginTest')
+data.setCell(17, 3, 3098);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'loginTest')
+data.setCell(18, 2, 'com.bankbot.tests.LoginTest')
+data.setCell(18, 3, 2214);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'loginTest')
+data.setCell(19, 2, 'com.bankbot.tests.LoginTest')
+data.setCell(19, 3, 2119);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'loginTest')
+data.setCell(20, 2, 'com.bankbot.tests.LoginTest')
+data.setCell(20, 3, 1965);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'loginTest')
+data.setCell(21, 2, 'com.bankbot.tests.LoginTest')
+data.setCell(21, 3, 1700);
+window.suiteTableData['BankBot_Automation_Suite']= { tableData: data, tableDiv: 'times-div-BankBot_Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-BankBot_Automation_Suite">
+              </div> <!-- times-div-BankBot_Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BankBot_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BankBot Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BankBot_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BankBot_Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankbot.tests.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(mngr659075, sagypYs, success, Valid login credentials)</span>
+                <span class="method-start">8820 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11927 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">12336 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(invalidUser, test123, error, Invalid username)</span>
+                <span class="method-start">16100 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18316 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">18796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(mngr659075, wrong123, error, Invalid password)</span>
+                <span class="method-start">23983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26105 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">26351 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(, , blank, Blank username/ password)</span>
+                <span class="method-start">29546 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31248 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">31589 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(mngr659075, , blank, Blank password)</span>
+                <span class="method-start">35507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48436 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">49540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(, sagypYs, blank, Blank username)</span>
+                <span class="method-start">82523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">84492 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">84795 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLogoutRedirectsToLoginPage</span>
+                <span class="method-start">87001 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">91653 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankbot.tests.ValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">92087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptyFieldValidation</span>
+                <span class="method-start">96176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">132642 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">133324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFutureDateValidation</span>
+                <span class="method-start">137178 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">149675 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">149972 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNonNumericValidation</span>
+                <span class="method-start">152895 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">179254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@521d455c)</span>
+                <span class="method-start">179536 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNonNumericValidation</span>
+                <span class="method-start">182195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">186341 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankbot.tests.CustomerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@526ae1fc)</span>
+                <span class="method-start">187710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateCustomer</span>
+                <span class="method-start">193772 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">199567 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@526ae1fc)</span>
+                <span class="method-start">200173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyDuplicateEmailError</span>
+                <span class="method-start">205030 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">212961 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@526ae1fc)</span>
+                <span class="method-start">213514 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEditCustomer</span>
+                <span class="method-start">217841 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">231917 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankbot.tests.AccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@cf9223f)</span>
+                <span class="method-start">232484 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCreateAccount</span>
+                <span class="method-start">237848 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246064 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@cf9223f)</span>
+                <span class="method-start">246373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEditAccount</span>
+                <span class="method-start">250916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">270608 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@cf9223f)</span>
+                <span class="method-start">271163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidCustomerIdAccountCreation</span>
+                <span class="method-start">275686 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">279628 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bankbot.tests.FundTransferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@7a62e096)</span>
+                <span class="method-start">280129 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBalanceAfterTransfer</span>
+                <span class="method-start">282754 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">307666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@7a62e096)</span>
+                <span class="method-start">308305 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBalanceAfterTransfer</span>
+                <span class="method-start">312837 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">341310 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@7a62e096)</span>
+                <span class="method-start">342332 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyBalanceAfterTransfer</span>
+                <span class="method-start">347665 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">377317 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@7a62e096)</span>
+                <span class="method-start">378726 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFundTransferSuccess</span>
+                <span class="method-start">383268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">398701 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(org.testng.TestRunner@7a62e096)</span>
+                <span class="method-start">399358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidPayeeTransfer</span>
+                <span class="method-start">403566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">411219 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BankBot Automation Suite" parallel="false" thread-count="2">
+
+    <listeners>
+        <listener class-name="com.bankbot.listeners.TestListener"/>
+        <listener class-name="com.bankbot.listeners.RetryListener"/>
+    </listeners>
+
+    <test name="Login And Validation Tests">
+        <classes>
+            <class name="com.bankbot.tests.LoginTest"/>
+            <class name="com.bankbot.tests.ValidationTest"/>
+        </classes>
+    </test>
+
+    <test name="Customer Tests">
+        <classes>
+            <class name="com.bankbot.tests.CustomerTest"/>
+        </classes>
+    </test>
+
+    <test name="Account Tests">
+        <classes>
+            <class name="com.bankbot.tests.AccountTest"/>
+        </classes>
+    </test>
+
+    <test name="Fund Transfer Tests">
+        <classes>
+            <class name="com.bankbot.tests.FundTransferTest"/>
+        </classes>
+    </test>
+
+</suite>
